@@ -1,0 +1,36 @@
+@media (max-width: 900px) {
+  .lp-main {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .lp-form-section {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .lp-title {
+    font-size: 26px;
+  }
+
+  .lp-root {
+    padding: 16px 12px 24px;
+  }
+
+  .lp-form-card {
+    padding: 18px 16px 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .lp-title {
+    font-size: 22px;
+  }
+
+  .lp-submit {
+    font-size: 14px;
+  }
+}

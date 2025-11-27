@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+}
+
+.lp-root {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #1a1f35, #050712 55%, #000 100%);
+  color: #f9fafb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding: 20px 16px 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background glows */
+.lp-glow {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(65px);
+  opacity: 0.7;
+  pointer-events: none;
+}
+.lp-glow-1 {
+  width: 260px;
+  height: 260px;
+  background: #6366f1;
+  top: -80px;
+  left: -40px;
+}
+.lp-glow-2 {
+  width: 260px;
+  height: 260px;
+  background: #ec4899;
+  bottom: -100px;
+  right: -60px;
+}

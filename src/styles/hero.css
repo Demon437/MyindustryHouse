@@ -1,0 +1,83 @@
+.lp-hero {
+  max-width: 560px;
+}
+
+.lp-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  background: rgba(15, 23, 42, 0.9);
+  margin-bottom: 18px;
+}
+
+.lp-pill .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #22c55e;
+}
+
+.lp-title {
+  font-size: clamp(32px, 5vw, 44px);
+  line-height: 1.1;
+  margin: 0 0 16px;
+  font-weight: 700;
+  color: #f8f0d8;
+}
+
+.lp-highlight {
+  background: linear-gradient(90deg, #c9b165, #f4e6b2);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.lp-subtitle {
+  color: #cbd5f5;
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 36rem;
+  margin-bottom: 18px;
+}
+
+.lp-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: grid;
+  gap: 6px;
+}
+
+.lp-bullets li {
+  font-size: 14px;
+  color: #e5e7eb;
+  opacity: 0.9;
+}
+
+/* Social proof */
+.lp-social-proof {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.lp-avatars {
+  display: flex;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  border: 2px solid #020617;
+  background: #1f2937;
+}
